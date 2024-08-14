@@ -3,6 +3,6 @@
     <body>
 <!--        <referenceBlock name="customer.new" remove="true" />-->
 <!--        <referenceBlock name="customer.new" remove="false" />-->
-        <referenceBlock name="customer.new" display="false" />
+        <!-- <referenceBlock name="customer.new" display="false" /> -->
     </body>
 </page>
