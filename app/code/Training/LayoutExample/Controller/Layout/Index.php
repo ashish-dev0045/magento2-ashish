@@ -30,9 +30,10 @@ class Index implements ActionInterface
      */
     public function execute()
     {
-        $result = $this->pageFactory->create();
-        $result->getConfig()->getTitle()->set('Custom title overwritten');
-        // $result->getLayout()->getBlock('page.main.title')->setPageTitle('Software Developer');
-        return $result;
+        // $result = $this->pageFactory->create();
+        // $result->getConfig()->getTitle()->set('Custom title overwritten');
+        // // $result->getLayout()->getBlock('page.main.title')->setPageTitle('Software Developer');
+        // return $result;
+        return $this->pageFactory->create();
     }
 }
