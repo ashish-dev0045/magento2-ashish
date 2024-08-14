@@ -1,3 +1,9 @@
 <?php /** @var Training\LayoutExample\Block\Layout\Index $block */ ?>
 <h2><?= $block->getSubtitle() ?></h2>
 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque ullam ut illo et fugit, fuga beatae optio. Amet, minima itaque perspiciatis praesentium quae non vel similique eveniet animi laborum sunt.</p>
+
+<?= $block->getChildHtml('layout_note'); ?>
+
+<?= $block->getNodeHTML() ?>
+
+<?= $block->getChildHtml('cms_block_example') ?>

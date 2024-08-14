@@ -22,4 +22,10 @@ class Index extends Template {
     {
         return "Learn Software development";
     }
+
+    public function getNodeHTML(): string
+    {
+        return $this->getLayout()->createBlock(Note::class)->toHtml();
+    }
+    
 }
