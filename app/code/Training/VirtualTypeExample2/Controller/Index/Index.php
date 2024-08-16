@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Training\VirtualTypeExample\Controller\Index;
+namespace Training\VirtualTypeExample2\Controller\Index;
 
 use Magento\Framework\App\ActionInterface;
 use Magento\Framework\View\Result\PageFactory;

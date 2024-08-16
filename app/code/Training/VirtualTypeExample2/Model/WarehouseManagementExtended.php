@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Training\VirtualTypeExample\Model;
+namespace Training\VirtualTypeExample2\Model;
 
-class WarehouseManagementExtended extends WarehouseManagement
+class WarehouseManagementExtended extends \Training\WarehouseManagement\Model\WarehouseManagement
 {
     protected function getAllWarehouses(): array
     {
@@ -22,5 +22,15 @@ class WarehouseManagementExtended extends WarehouseManagement
         ];
 
         return array_merge(parent::getAllWarehouses(), $extraWarehouses);
+    }
+
+    /**
+     * @return string[]
+     */
+    public function getDiscontinuedWarehouses(): array
+    {
+        return [
+            'lon1'
+        ];
     }
 }

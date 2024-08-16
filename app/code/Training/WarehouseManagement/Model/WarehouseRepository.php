@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Training\VirtualTypeExample\Model;
+namespace Training\WarehouseManagement\Model;
 
 use Magento\Framework\DataObject;
-use Training\VirtualTypeExample\Api\WarehouseManagementInterface;
-use Training\VirtualTypeExample\Api\WarehouseRepositoryInterface;
+use Training\WarehouseManagement\Api\WarehouseManagementInterface;
+use Training\WarehouseManagement\Api\WarehouseRepositoryInterface;
 
 class WarehouseRepository implements WarehouseRepositoryInterface
 {

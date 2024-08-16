@@ -4,9 +4,9 @@
         <referenceContainer name="content">
             <block name="virtual_type_block"
                    class="Magento\Framework\View\Element\Template"
-                   template="Training_VirtualTypeExample::virtual_type.phtml">
+                   template="Training_VirtualTypeExample2::virtual_type2.phtml">
                 <arguments>
-                    <argument name="view_model" xsi:type="object">Training\VirtualTypeExample\ViewModel\Example</argument>
+                    <argument name="view_model" xsi:type="object">Training\VirtualTypeExample2\ViewModel\Example</argument>
                 </arguments>
             </block>
         </referenceContainer>
